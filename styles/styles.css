@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    min-height: 100px;
+
+    background: #02213E;
+}
+
+.menu {
+    font-family: 'Merriweather';
+    font-size: 1.5rem;
+    text-align: center;
+
+    color: #f2f2f2;
+
+    text-shadow: 10px 10px 20px black;
+}
+
+.menu a:link,
+.menu a:visited,
+.menu a:active {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #BFBFBE;
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partie1 {
+    height: 90vh;
+}
+
+.ID {
+    padding: 10vh 20vh 20vh 20vh;
+    box-sizing: border-box;
+
+    background-image: url(../images/fond_main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+
+    text-align: center;
+}
+
+.ID h1 {
+
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+
+    color: #FFFFFF;
+    text-shadow: 10px 10px 20px black;
+}
+
+.ID_photo {
+    width: 25%;
+    border-radius: 50%;
+}
+
+#skills {
+    display: grid;
+    height: 20vh;
+    max-height: 20vh;
+    grid-template-columns: repeat(4, 1fr);
+    font-family: 'Merriweather';
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    background-color: #E3E3E3;
+
+    color: #4F4F4F;
+
+    justify-content: center;
+    align-content: center;
+}
+
+.skills_details {
+    font-size: 1rem;
+    font-weight: 400i;
+    font-style: italic;
+}
+
+.partie2 {
+    height: 100vh;
+    background-image: url(../images/fond_contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-family: 'Raleway';
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+}
+
+#contact {
+    height: 25vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: absolute;
+    bottom: 0;
+    background-color: #91785F;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#contact img {
+    width: 20%;
+}
+
+.partie3 {
+    height: 150vh;
+}
+
+#valeurs {
+    height: 60vh;
+    background-image: url(../images/fond_valeurs.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-left: 15vh;
+    padding-right: 15vh;
+    box-sizing: border-box;
+
+}
+
+h2 {
+    margin: 0 auto;
+    padding-top: 2vh;
+}
+
+.valeur_titre {
+    font-family: 'Raleway';
+    font-weight: 700;
+    text-shadow: 1px 1px 2px black;
+    color: #E5E5E5;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.valeur_txt {
+    padding-top: 5vh;
+    font-family: 'Merriweather';
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: justify;
+
+    color: #E5E5E5;
+
+    text-shadow: 1px 1px 2px black;
+}
+
+b {
+    font-weight: 700;
+    color: #F2E1DA;
+}
+
+.formations_titre {
+    font-family: 'Raleway';
+    font-weight: bold;
+    line-height: normal;
+    font-size: 5rem;
+    text-align: center;
+
+    color: #4F4F4F;
+}
+
+.formations_txt {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+
+    color: #828282;
+
+}
+
+.form_details {
+    font-style: italic;
+    font-weight: 400;
+}
+
+#xp {
+    height: 60vh;
+    background-image: url(../images/fond_XP.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    padding-left: 15vh;
+    padding-right: 15vh;
+    box-sizing: border-box;
+}
+
+#xp h2 {
+    font-family: 'Raleway';
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    color: #E5E5E5;
+}
+
+#xp h3 {
+    font-family: 'Merriweather';
+    font-style: italic;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 2rem;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+}
+
+
+@media screen and (max-width:640px) {
+
+    html,
+    body {
+        font-size: 12px;
+    }
+
+    .ID_photo {
+        width: 100px;
+        border-radius: 50%;
+    }
+
+    .ID {
+        height: auto;
+        padding: 20px 0;
+    }
+
+}
